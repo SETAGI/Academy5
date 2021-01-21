@@ -1,7 +1,7 @@
 package data;
 
 public class Calculator {
-    
+
     private double number1;
     private double number2;
 
@@ -14,8 +14,16 @@ public class Calculator {
         return this.number1 + this.number2;
     }
 
-    public double getSubtract(){
+    public double getSubtract() {
         return this.number1 - this.number2;
+    }
+
+    public double getMultiplication(){
+        return this.number1 * this.number2;
+    }
+
+    public double getDivision(){
+        return this.number1 / this.number2;
     }
 
 }
